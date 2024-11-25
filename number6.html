@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Rowspan e Colspan</title>
+</head>
+<body>
+
+    <h2>Tabela com Rowspan e Colspan</h2>
+
+    <table border="1">
+        <!-- Cabeçalho da Tabela -->
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <!-- Corpo da Tabela -->
+        <tbody>
+            <tr>
+                <td>João Silva</td>
+                <td>28</td>
+                <td>Tecnico em edificações</td>
+            </tr>
+            <tr>
+                <td>Ana Souza</td>
+                <td colspan="2">Vendedora</td> <!-- Unindo 2 colunas com colspan -->
+            </tr>
+            <tr>
+                <td rowspan="2">Carlos Pereira</td> <!-- Unindo 2 linhas com rowspan -->
+                <td>22</td>
+                <td>Analista de Sistemas</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Jogador</td>
+            </tr>
+            <tr>
+                <td>Maria Oliveira</td>
+                <td>45</td>
+                <td>Arquiteta</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

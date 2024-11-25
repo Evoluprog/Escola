@@ -1,0 +1,132 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #f0f0f0; /* Cor de fundo clara para a página */
+    font-family: Arial, sans-serif; /* Fonte padrão para a página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para os títulos (h2) */
+h2 {
+    color: #4CAF50; /* Cor verde para o título */
+    font-family: 'Courier New', Courier, monospace; /* Fonte personalizada para os títulos */
+    text-align: center; /* Alinhar o título no centro */
+    padding: 20px; /* Espaçamento ao redor do título */
+    margin-top: 50px; /* Espaçamento acima do título */
+    border-bottom: 2px solid #4CAF50; /* Linha de separação abaixo do título */
+}
+/* Estilo geral para todas as divs */
+div {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para a caixa com a classe 'caixa-vermelha' */
+.caixa-vermelha {
+    background-color: #ffcccc; /* Cor de fundo vermelha clara */
+    border: 2px solid #ff0000; /* Borda vermelha */
+    color: #ff0000; /* Cor do texto vermelha */
+}
+
+/* Estilo para a caixa com a classe 'caixa-azul' */
+.caixa-azul {
+    background-color: #cce7ff; /* Cor de fundo azul clara */
+    border: 2px solid #007bff; /* Borda azul */
+    color: #007bff; /* Cor do texto azul */
+}
+
+/* Estilo para a caixa com o ID 'caixa-verde' */
+#caixa-verde {
+    background-color: #d4edda; /* Cor de fundo verde clara */
+    border: 2px solid #28a745; /* Borda verde */
+    color: #28a745; /* Cor do texto verde */
+}
+/* Estilo geral para o link */
+a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #007bff; /* Cor inicial do link */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Fonte do link */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transição suave para cor e transformação */
+}
+
+/* Estilo para o link não visitado */
+a:link {
+    color: #007bff; /* Cor inicial do link */
+}
+
+/* Estilo para o link após ser visitado */
+a:visited {
+    color: #6f42c1; /* Cor roxa para links visitados */
+}
+
+/* Estilo para o link quando o cursor estiver sobre ele (hover) */
+a:hover {
+    color: #ff6347; /* Cor laranja quando o cursor passar por cima */
+    text-decoration: underline; /* Sublinha o link quando passar o mouse sobre ele */
+    transform: scale(1.1); /* Aumenta o tamanho do link ligeiramente */
+}
+
+/* Estilo para o link quando estiver ativo (clicado) */
+a:active {
+    color: #28a745; /* Cor verde quando o link for clicado */
+    transform: scale(1); /* Retorna ao tamanho original */
+}
+/* Estilo geral para todas as divs */
+div {
+    font-family: Arial, sans-serif; /* Fonte para o conteúdo da caixa */
+}
+
+/* Estilo para a primeira caixa */
+.caixa-1 {
+    margin: 20px; /* Margem externa de 20px */
+    border: 5px solid #ff5733; /* Borda de 5px de largura e cor laranja */
+    padding: 30px; /* Preenchimento interno de 30px */
+    background-color: #ffcccb; /* Cor de fundo vermelho claro */
+}
+
+/* Estilo para a segunda caixa */
+.caixa-2 {
+    margin: 30px; /* Margem externa de 30px */
+    border: 10px solid #33c1ff; /* Borda de 10px de largura e cor azul clara */
+    padding: 20px; /* Preenchimento interno de 20px */
+    background-color: #cce7ff; /* Cor de fundo azul claro */
+}
+
+/* Estilo para a terceira caixa */
+.caixa-3 {
+    margin: 40px; /* Margem externa de 40px */
+    border: 15px solid #28a745; /* Borda de 15px de largura e cor verde */
+    padding: 40px; /* Preenchimento interno de 40px */
+    background-color: #d4edda; /* Cor de fundo verde claro */
+}
+/* Estilo geral para as caixas */
+div {
+    margin: 20px; /* Margem externa de 20px */
+    font-family: Arial, sans-serif; /* Fonte para o conteúdo da caixa */
+}
+
+/* Caixa com largura e altura fixas */
+.caixa-fixa {
+    width: 300px; /* Largura fixa de 300px */
+    height: 200px; /* Altura fixa de 200px */
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    border: 2px solid #e67e22; /* Borda laranja */
+    padding: 20px; /* Preenchimento interno de 20px */
+    color: #333; /* Cor do texto */
+    box-sizing: border-box; /* Inclui bordas e preenchimento nas dimensões */
+}
+
+/* Caixa com dimensões relativas (percentuais) */
+.caixa-relativa {
+    width: 50%; /* Largura de 50% da tela */
+    height: 30vh; /* Altura de 30% da altura da tela */
+    background-color: #34b7f1; /* Cor de fundo azul */
+    border: 2px solid #2980b9; /* Borda azul escuro */
+    padding: 20px; /* Preenchimento interno de 20px */
+    color: #fff; /* Cor do texto */
+    box-sizing: border-box; /* Inclui bordas e preenchimento nas dimensões */
+}
+

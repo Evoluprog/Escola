@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+
+    <h2>Formulário de Cadastro</h2>
+
+    <form action="#" method="post">
+        <!-- Campo de Nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Campo de E-mail -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Campo de Senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <!-- Lista com opções de Checkboxes -->
+        <fieldset>
+            <legend>Escolha suas preferências:</legend>
+            <label>
+                <input type="checkbox" name="preferencias" value="notificacoes"> Receber notificações
+            </label><br>
+            <label>
+                <input type="checkbox" name="preferencias" value="ofertas"> Receber ofertas especiais
+            </label><br>
+            <label>
+                <input type="checkbox" name="preferencias" value="newsletter"> Assinar newsletter
+            </label><br><br>
+        </fieldset>
+
+        <!-- Lista com opções de Botões de Rádio -->
+        <fieldset>
+            <legend>Escolha seu método de pagamento preferido:</legend>
+            <label>
+                <input type="radio" name="pagamento" value="cartao" required> Cartão de Crédito
+            </label><br>
+            <label>
+                <input type="radio" name="pagamento" value="boleto"> Boleto Bancário
+            </label><br>
+            <label>
+                <input type="radio" name="pagamento" value="paypal"> PayPal
+            </label><br><br>
+        </fieldset>
+
+        <!-- Campo de Seleção Suspensa (Select) -->
+        <label for="pais">Selecione seu país:</label>
+        <select id="pais" name="pais" required>
+            <option value="brasil">Brasil</option>
+            <option value="portugal">Portugal</option>
+            <option value="espanha">Espanha</option>
+            <option value="franca">França</option>
+        </select><br><br>
+
+        <!-- Botão de Enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
